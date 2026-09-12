@@ -7,7 +7,9 @@ export default function Unauthorised() {
       <Card.Header>401 — Unauthorised</Card.Header>
       <Card.Body>
         <Card.Text>You need to be logged in to view that page.</Card.Text>
-        <Button as={Link as any} to="/login" variant="primary">Go to login</Button>
+        <Button as={Link as any} to="/login" variant="primary">
+          Go to login
+        </Button>
       </Card.Body>
     </Card>
   );
