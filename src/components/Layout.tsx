@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Navbar, Nav, NavDropdown, Container, Alert } from "react-bootstrap";
 import { logout } from "../api/client";
