@@ -1,6 +1,6 @@
 import type { Post } from "../types/Post";
 
-const BASE = "http://localhost:8000/api";
+const BASE = `${import.meta.env.VITE_API_URL ?? "http://localhost:8000"}/api`;
 
 function authHeaders(): HeadersInit {
   return {
